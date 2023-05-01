@@ -58,7 +58,7 @@ p {
   color: white;
 }
 
-.about-link {
+.photo-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
@@ -105,4 +105,13 @@ p {
 
 nav {
   position: sticky;
+}
+
+.photo {
+  padding: 2rem 0;
+}
+.photo img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
 }
